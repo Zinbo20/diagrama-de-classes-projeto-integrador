@@ -278,3 +278,13 @@ classDiagram
         +Update (id: long, order: Order): void
     }
 ```
+
+
+```mermaid
+classDiagram
+    class Timeline {
+        -Steps: List&lt;Step&gt;
+        +GetAll (): List&lt;Step&gt;
+        +GetCurrentStep (id: long) List&lt;Order&gt;
+    }
+```
